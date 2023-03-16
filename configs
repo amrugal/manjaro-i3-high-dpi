@@ -1,4 +1,4 @@
-# For desktop scaling and default urxvt terminal emulator
+# For desktop scaling and default urxvt terminal emulator (192 dpi, default 96 dpi x 3)
 # ~/.Xresources
 xft.dpi:  192
 ...
