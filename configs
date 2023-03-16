@@ -1,0 +1,24 @@
+# For desktop scaling and default urxvt terminal emulator
+# ~/.Xresources
+xft.dpi:  192
+...
+URxvt.font:                       xft:TerminessTTFNerdFontMono:size=14
+
+# morc_menu (mod+z)
+# ~/.config/morc_menu/morc_menu_v1.conf
+...
+avg_char_width=16
+avg_err_char_width=16
+...
+
+# grub resolution setup
+# /etc/default/grub
+...
+GRUB_GFXMODE=1024x768x32
+...
+
+# login screen (greeter screen)
+# /etc/lightdm/slick-greeter.conf
+...
+enable-highdpi=on
+...
